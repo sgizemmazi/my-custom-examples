@@ -1,0 +1,13 @@
+.btn-tr.active, .btn-check:checked+.btn-tr {
+    opacity: 0.5;
+    color: #ff0000;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+  
+.btn-en.active, .btn-check:checked+.btn-en {
+    opacity: 0.5;
+    color: #ff0000;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
