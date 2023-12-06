@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation menu</title>
+    <!--  BOOTSTRAP CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/css/menu.css">
+
+
+<body class="">
+    <header>
+  
+      <nav class="navbar navbar-expand-lg navbar-light navbar-menu-top" style="z-index: 999999; ">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+          <div class="collapse navbar-collapse d-flex justify-content-between dizayn-navbar" id="navbarText">
+  
+            <a class="navbar-brand" href="/"><img src="assets/images/tubitak-logo.svg" class="img-fluid w-75" alt=""></a>
+  
+            <div class="offcanvas offcanvas-top offcanvas-top-main " tabindex="-1" id="offcanvasTop"
+              aria-labelledby="offcanvasTopLabel">
+              <div class="container">
+  
+                <div class="header-title-menu">
+                  <div class="display-sm-menu">
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                  </div>
+                 
+                </div>
+  
+              </div>
+  
+              <div class="offcanvas-body overlay" id="overlay">
+  
+                <nav class="overlay-menu">
+                  <ul >
+  
+                    <li><a class="btn btn-menu-li" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample" href="#">PROGRAM HAKKINDA <svg
+                          xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                          class="bi bi-chevron-right ms-2" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg></a></li>
+                    <div class="collapse" id="collapseExample" style="border-bottom: 1px dashed; width: 100%; margin-bottom: 20px;">
+                      <div class="card  card-main-menu">
+                        <div class="d-flex justify-content-center mb-3" style="opacity: 0.5;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                          </svg>
+                        </div>
+                        <ul>
+                          <li><a class="btn btn-menu-li" data-bs-toggle="collapse" href="#genel-bilgi" role="button"
+                              aria-expanded="false" aria-controls="genel-bilgi" href="#">GENEL BİLGİ <svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                                class="bi bi-chevron-right ms-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                              </svg></a></li>
+                          <div class="collapse" id="genel-bilgi" style="border-bottom: 1px dashed; width: 100%; margin-bottom: 20px;">
+                            <div class="card  card-main-menu">
+                              <div class="d-flex justify-content-center mb-3" style="opacity: 0.5;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                  class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                              </div>
+                              <ul>
+                                <li><a href="#">TANIMLAR</a></li>
+                                <li><a href="#">AMAÇ</a></li>
+                                <li><a href="#">KAPSAM</a></li>
+                                <li><a href="#">DESTEK SÜRESİ</a></li>
+                                <li><a href="#">KONSORSİYUM YAPISI</a></li>
+  
+                              </ul>
+                            </div>
+                          </div>
+                          <li><a href="#">KİMLER BAŞVURABİLİR</a></li>
+                          <li><a href="#">YAYINLANMIŞ ÇAĞRILAR</a></li>
+  
+                        </ul>
+                      </div>
+                    </div>
+                    <li><a href="#">DESTEKLENEN PLATFORMLAR</a></li>
+                    <li><a href="#">PROGRAM SÜREÇLERİ</a></li>
+                    <li><a href="#">MEVZUAT</a></li>
+                    <li><a href="#">BAĞLANTILAR</a></li>
+                    <li><a href="#">S.S.S</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+                  </ul>
+                </nav>
+                <div class="year-text">
+                  2023©
+                </div>
+              </div>
+            </div>
+            <div class="button-container-ek" type="button" id="toggle" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+              <p class="position-absolute ps-5 content">MENU</p>
+  
+            </div>
+  
+  
+  
+          </div>
+        </div>
+      </nav>
+  
+  
+    
+  
+    </header>
+  
+
+
+
+
+    <!--  SCRİPT  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script>
+
+        // menu iconunun açılıp kapanması için
+        $('#toggle').click(function () {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+
+        $('.button-container-ek').click(function () {
+
+            toggleCollapse();
+        });
+
+        // sayfada 20 pikselden sonra scroll olduğunda kaybolacak
+        document.addEventListener('DOMContentLoaded', function () {
+            var button = document.querySelector('.button-container-ek');
+
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 20) { // 20 piksel scroll ettikten sonra
+                    button.style.opacity = 0; // Button'u görünmez yap
+                } else {
+                    button.style.opacity = 1; // Button'u görünür yap
+                }
+            });
+        })
+
+        // menu iconu kapalıyken 'menu' yazısı gözükmeyecek açıkken gözükecek  
+        function toggleCollapse() {
+            var element = document.querySelector('.button-container-ek .content');
+            element.classList.toggle('acik');
+            element.classList.toggle('kapali');
+
+            var hiddenText = document.querySelector('.content');
+
+            if (element.classList.contains('acik')) {
+                // Eğer açık ise, gizli metni göster
+                hiddenText.style.display = 'block';
+            } else {
+                // Eğer kapalı ise, gizli metni gizle
+                hiddenText.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
